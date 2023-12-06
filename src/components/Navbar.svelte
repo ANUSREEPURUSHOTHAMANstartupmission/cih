@@ -62,7 +62,7 @@
     <div class="w-screen container mx-auto sm:flex sm:items-center sm:justify-between">
       <div class=" md:mx-10 m-0  font-medium w-fit p-0 rounded-md flex items-center justify-center">
        
-        <img src="/img/logo.svg" alt="logo" class=" {scrolled?'h-12':'h-16'}">
+        <img src="/cih/img/logo.svg" alt="logo" class=" {scrolled?'h-12':'h-16'}">
       </div>
 
       <nav>
@@ -87,7 +87,7 @@
 
 <main class="w-full fixed bg-white z-40" >
   <div class="flex sm:hidden" >        
-    <img src="/img/logo.svg" alt="Logo" class="p-1 object-contain h-12 px-2">
+    <img src="/cih/img/logo.svg" alt="Logo" class="p-1 object-contain h-12 px-2">
     <button on:click="{()=> menu_open = !menu_open }" class="z-50 cursor-pointer fixed right-5 w-10 h-10 text-xl ml-auto transition duration-150 hover:shadow leading-none px-2 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
       <span class="block absolute w-6 h-0.5 rounded-sm bg-black top-3 duration-500 { menu_open ? 'opacity-0':'' }" ></span>
       <span class="block absolute w-6 h-0.5 rounded-sm bg-black duration-500 { menu_open ? 'transform rotate-45':'' }"></span>
